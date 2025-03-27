@@ -48,7 +48,7 @@ function Login() {
   };
 
   return (
-    <div className='flex justify-center h-[600px] p-4 sm:p-0 z-20  bg-[#22222270]'>
+    <div className='flex justify-center h-[600px] p-4 sm:p-0 z-20 home-bg '>
       {toggle ? <div className='relative w-[400px] h-[380px] mt-[100px] p-10 shadow-2xl login-bg bg-white  rounded-lg'>
         <h2 className='font-bold text-2xl mb-4 '>Ro'yhatdan o'tish</h2>
         <Link to="/">{<p className='font-bold absolute right-5 top-5 cursor-pointer'>X</p>}</Link>
